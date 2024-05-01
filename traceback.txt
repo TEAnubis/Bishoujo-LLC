@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/US_states/Kansas.rpy", line 51, in script
+    python:
+  File "game/US_states/Kansas.rpy", line 59, in <module>
+    reader = PdfReader(file_path)
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\SLC\\Bishoujo LLC\\Bishoujo LLC\\Bishoujo LLC\\game\\..\\forms\\KansasLLC.pdf'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/US_states/Kansas.rpy", line 51, in script
+    python:
+  File "D:\SLC\RenPy\renpy-8.2.0-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\SLC\RenPy\renpy-8.2.0-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/US_states/Kansas.rpy", line 59, in <module>
+    reader = PdfReader(file_path)
+  File "D:\SLC\RenPy\renpy-8.2.0-sdk\lib\python3.9\pypdf\_reader.py", line 316, in __init__
+    with open(stream, "rb") as fh:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\SLC\\Bishoujo LLC\\Bishoujo LLC\\Bishoujo LLC\\game\\..\\forms\\KansasLLC.pdf'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.0.24012702
+Bishoujo LLC 1.0
+Wed Apr 10 22:24:52 2024

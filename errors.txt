@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 81: end of line expected.
+    show OL1.png
+            ^
+
+File "game/script.rpy", line 135: end of line expected.
+    show OL3.png
+            ^
+
+File "game/script.rpy", line 183: end of line expected.
+    show OL2.png
+            ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Mon Apr 22 22:24:18 2024
